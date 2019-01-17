@@ -1,6 +1,7 @@
 ```bash
 sudo tcpdump -nn -v -i eno1 -s 1500 -c 1 'ether proto 0x88cc'
-
+```
+```
 07:56:13.147276 LLDP, length 201
 	Chassis ID TLV (1), length 7
 	  Subtype MAC address (4): 00:90:0b:51:81:08
@@ -38,8 +39,9 @@ sudo tcpdump -nn -v -i eno1 -s 1500 -c 1 'ether proto 0x88cc'
 
 ```bash
 sudo tcpdump -nn -v -i eth0 -s 1500 -c 1 'ether[20:2] == 0x2000'
+```
 
-
+```
 07:54:25.713555 CDPv2, ttl: 180s, checksum: 0xc4d4 (unverified), length 372
 	Device-ID (0x01), value length: 27 bytes: 'asw1-labr2c2-bry.isnet.net.'
 	Version String (0x05), value length: 181 bytes:

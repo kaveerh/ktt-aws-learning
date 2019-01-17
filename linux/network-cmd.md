@@ -1,4 +1,4 @@
-```sh
+```bash
 sudo tcpdump -nn -v -i eno1 -s 1500 -c 1 'ether proto 0x88cc'
 
 07:56:13.147276 LLDP, length 201
@@ -36,7 +36,7 @@ sudo tcpdump -nn -v -i eno1 -s 1500 -c 1 'ether proto 0x88cc'
 ```
 
 
-```sh
+```bash
 sudo tcpdump -nn -v -i eth0 -s 1500 -c 1 'ether[20:2] == 0x2000'
 
 

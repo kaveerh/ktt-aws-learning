@@ -4,12 +4,12 @@ This is going to be the adventure to extend my knowledge of how to use aws softw
 Links
 
 
-https://www.rightscale.com/cloud-comparison-tool/
-https://cloudcraft.co
+*https://www.rightscale.com/cloud-comparison-tool/
+*https://cloudcraft.co
 
 
 
 [Networking]
 
-https://grahamlyons.com/article/everything-you-need-to-know-about-networking-on-aws
+*https://grahamlyons.com/article/everything-you-need-to-know-about-networking-on-aws
 
